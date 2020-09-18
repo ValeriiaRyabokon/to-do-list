@@ -1,0 +1,97 @@
+{
+  "lists": [
+    {
+      "id": 1,
+      "name": "Закупки",
+      "colorId": 5
+    },
+    {
+      "id": 2,
+      "name": "Фронтенд",
+      "colorId": 4
+    },
+    {
+      "id": 2,
+      "name": "Спорт",
+      "colorId": 3
+    },
+    {
+      "id": 3,
+      "name": "Почитати книгу",
+      "colorId": 2
+    },
+    {
+      "id": 4,
+      "name": "Особисте",
+      "colorId": 6
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "listId": 2,
+      "text": "Вивчити Реакт",
+      "completed": true
+    },
+    {
+      "id": 2,
+      "listId": 2,
+      "text": "Вивчити Редакс",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "listId": 2,
+      "text": "Вивчити хуки Реакту",
+      "completed": false
+    },
+    {
+      "id": 4,
+      "listId": 2,
+      "text": "Повторити Редакс",
+      "completed": true
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "hex": "#737364",
+      "name": "grey"
+    },
+    {
+      "id": 2,
+      "hex": "#317131",
+      "name": "green"
+    },
+    {
+      "id": 3,
+      "hex": "#6F9BBC",
+      "name": "blue"
+    },
+    {
+      "id": 4,
+      "hex": "#CF66A0",
+      "name": "pink"
+    },
+    {
+      "id": 5,
+      "hex": "#CAEC4E",
+      "name": "lime"
+    },
+    {
+      "id": 6,
+      "hex": "#7060C6",
+      "name": "purple"
+    },
+    {
+      "id": 7,
+      "hex": "#08040B",
+      "name": "black"
+    },
+    {
+      "id": 8,
+      "hex": "#FB3A02",
+      "name": "red"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+                    * {
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                        outline: 0;
+                        font-family: 'Roboto', -apple-system, system-ui, sans-serif;
+                        -webkit-font-smoothing: antialiased;
+                        -moz-osx-font-smoothing: grayscale;
+                    }
+                    
+                    .todo {
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        width: 750px;
+                        height: calc(100hv-100px);
+                        transform: translate(-50%, -50%);
+                        box-shadow: 1px 2px 20px #f3f3f3;
+                        border-radius: 10px;
+                        border: 1px solid #f1f1f1;
+                        font-size: 14px;
+                        display: flex;
+                        &__sidebar {
+                            background-color: #f4f6f8;
+                            width: 200px;
+                            min-height: 410px;
+                            border-right: 1px solid #f1f1f1;
+                            padding: 60px 20px;
+                        }
+                        &__imagine {
+                            width: 14px;
+                            height: 14px;
+                        }
+                        &__add {
+                            opacity: 1;
+                            color: #838383;
+                            &:hover {
+                                color: darken(#838383, 15%);
+                            }
+                            &__img {
+                                width: 14px;
+                                height: 14px;
+                            }
+                        }
+                        &__tasks {
+                            padding: 60px;
+                            height: 300px;
+                            overflow: auto;
+                        }
+                    }
+                    
+                    .field {
+                        background: #ffffff;
+                        border: 1px solid #efefef;
+                        box-sizing: border-box;
+                        border-radius: 4px;
+                        padding: 8px 12px;
+                        width: 100%;
+                        font-size: 14px;
+                        &:focus {
+                            border-color: #aaaaaa;
+                        }
+                    }
+                    
+                    .button {
+                        background: #4DD599;
+                        border-radius: 4px;
+                        color: #fff;
+                        border: 0;
+                        padding: 10px 20px;
+                        cursor: pointer;
+                        &:hover {
+                            background: darken(#4DD599, 6%);
+                        }
+                        &:active {
+                            background: darken(#4DD599, 10%);
+                        }
+                        &__grey {
+                            background: #ebebeb;
+                            color: #646464;
+                            &:hover {
+                                background: darken(#ebebeb, 3%);
+                            }
+                        }
+                    }

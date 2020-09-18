@@ -1,0 +1,164 @@
+{
+  "lists": [
+    {
+      "id": 1,
+      "name": "Закупки",
+      "colorId": 5
+    },
+    {
+      "id": 2,
+      "name": "Фронтенд",
+      "colorId": 4
+    },
+    {
+      "name": "Бла бла бла",
+      "colorId": 4,
+      "id": 5
+    },
+    {
+      "name": "куку",
+      "colorId": 2,
+      "id": 6
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "listId": 2,
+      "text": "Вивчити Реакт",
+      "completed": true
+    },
+    {
+      "id": 2,
+      "listId": 2,
+      "text": "Вивчити Редакс",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "listId": 2,
+      "text": "Вивчити хуки Реакту",
+      "completed": false
+    },
+    {
+      "id": 4,
+      "listId": 2,
+      "text": "Повторити Редакс",
+      "completed": true
+    },
+    {
+      "listId": 1,
+      "text": "nhj",
+      "completed": false,
+      "id": 5
+    },
+    {
+      "listId": 1,
+      "text": "Хелооооуууу",
+      "completed": false,
+      "id": 6
+    },
+    {
+      "listId": 1,
+      "text": "сцйчйчцс",
+      "completed": false,
+      "id": 7
+    },
+    {
+      "listId": 1,
+      "text": "тигидик тигидик",
+      "completed": false,
+      "id": 8
+    },
+    {
+      "listId": 1,
+      "text": "SDDQ",
+      "completed": false,
+      "id": 9
+    },
+    {
+      "listId": 1,
+      "text": "ec",
+      "completed": false,
+      "id": 13
+    },
+    {
+      "listId": 5,
+      "text": "сюка сюка",
+      "completed": false,
+      "id": 14
+    },
+    {
+      "listId": 5,
+      "text": "сюка сюка",
+      "completed": false,
+      "id": 15
+    },
+    {
+      "listId": 5,
+      "text": "вук",
+      "completed": false,
+      "id": 17
+    },
+    {
+      "listId": 5,
+      "text": "вук",
+      "completed": false,
+      "id": 18
+    },
+    {
+      "listId": 5,
+      "text": "р",
+      "completed": false,
+      "id": 19
+    },
+    {
+      "listId": 6,
+      "text": "сюка",
+      "completed": false,
+      "id": 20
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "hex": "#737364",
+      "name": "grey"
+    },
+    {
+      "id": 2,
+      "hex": "#317131",
+      "name": "green"
+    },
+    {
+      "id": 3,
+      "hex": "#6F9BBC",
+      "name": "blue"
+    },
+    {
+      "id": 4,
+      "hex": "#CF66A0",
+      "name": "pink"
+    },
+    {
+      "id": 5,
+      "hex": "#CAEC4E",
+      "name": "lime"
+    },
+    {
+      "id": 6,
+      "hex": "#7060C6",
+      "name": "purple"
+    },
+    {
+      "id": 7,
+      "hex": "#08040B",
+      "name": "black"
+    },
+    {
+      "id": 8,
+      "hex": "#FB3A02",
+      "name": "red"
+    }
+  ]
+}

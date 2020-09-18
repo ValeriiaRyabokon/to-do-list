@@ -1,0 +1,57 @@
+                    .list {
+                        $self: &;
+                        margin-bottom: 30px;
+                        li {
+                            display: flex;
+                            align-items: center;
+                            padding: 10px 12px;
+                            cursor: pointer;
+                            margin-bottom: 1px;
+                            &:hover #{$self}__remove__icon {
+                                opacity: 0.4;
+                            }
+                            #{$self}__remove__icon {
+                                height: 13px;
+                                width: 13px;
+                                opacity: 0;
+                                &:hover {
+                                    opacity: 0.9;
+                                }
+                            }
+                            span {
+                                flex: 1;
+                                text-overflow: ellipsis;
+                                overflow: hidden;
+                                width: 160px;
+                                white-space: nowrap;
+                            }
+                            &:hover {
+                                background: rgba(255, 255, 255, 0.5);
+                            }
+                            &.active {
+                                background: #FFFFFF;
+                                box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.04);
+                                border-radius: 4px;
+                                cursor: pointer;
+                            }
+                            .badge {
+                                position: relative;
+                                left: 5px;
+                            }
+                        }
+                        i {
+                            display: inline-flex;
+                            margin-right: 8px;
+                            img {
+                                opacity: 0.6;
+                            }
+                        }
+                        &__remove__icon {
+                            height: 13px;
+                            width: 13px;
+                            opacity: 0;
+                            &:hover {
+                                opacity: 1;
+                            }
+                        }
+                    }
